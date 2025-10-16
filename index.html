@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="public, max-age=31536000, immutable" />
+    <title>Spécialiste des Travaux en Hauteur - Services Professionnels</title>
+
+    <!-- DNS Prefetch for external resources -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+
+    <!-- Preload LCP image for faster loading -->
+    <link rel="preload" as="image" href="assets/images/heroimg.png" fetchpriority="high" imagesrcset="assets/images/heroimg.png" imagesizes="100vw" />
+
+    <!-- Inline Critical CSS for above-the-fold content -->
+    <style>*{margin:0;padding:0;box-sizing:border-box}:root{--primary-blue:#005da3;--secondary-blue:#0074c7;--light-blue:#e6f2ff;--lighter-blue:#cce5ff;--dark-blue:#003d6b;--white:#ffffff;--gray-light:#f3f4f6;--gray-medium:#6b7280;--gray-dark:#1f2937;--accent-red:#ef4444;--shadow:0 10px 25px rgba(0,0,0,0.1);--shadow-hover:0 20px 40px rgba(0,0,0,0.15)}html{scroll-behavior:smooth}body{font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;line-height:1.6;color:var(--gray-dark);overflow-x:hidden;background:var(--white)}.page-loader{position:fixed;top:0;left:0;width:100%;height:100%;background:var(--white);z-index:10000;display:flex;align-items:center;justify-content:center;transition:opacity .5s ease,visibility .5s ease}.page-loader.hidden{opacity:0;visibility:hidden}.loader-content{text-align:center}.loader-logo{width:120px;height:120px;display:flex;align-items:center;justify-content:center;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,0.12);animation:bounce 1.2s infinite;background:#fff;padding:10px}.loader-logo img{width:100%;height:100%;object-fit:contain}@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}.loader-bar{width:200px;height:4px;background:var(--light-blue);border-radius:2px;margin:20px auto;overflow:hidden}.loader-progress{width:0;height:100%;background:var(--primary-blue);animation:loading 1.8s ease-out forwards}@keyframes loading{to{width:100%}}nav{position:fixed;top:0;width:100%;background:transparent;backdrop-filter:none;z-index:1000;transition:all .3s ease}nav.scrolled{background:rgba(255,255,255,0.95);backdrop-filter:blur(10px);box-shadow:0 4px 20px rgba(0,0,0,0.1)}nav .nav-container{display:flex;justify-content:space-between;align-items:center;padding:1.5rem 2rem;max-width:1200px;margin:0 auto;transition:padding .3s ease}nav.scrolled .nav-container{padding:1rem 2rem}.nav-logo{display:flex;align-items:center;justify-content:center;font-family:"Montserrat","Segoe UI",sans-serif;font-size:1.6rem;font-weight:800;color:var(--primary-blue);transition:all .3s ease;letter-spacing:-0.8px;text-shadow:none;cursor:pointer}nav.scrolled .nav-logo{color:var(--primary-blue);font-size:1.4rem}.nav-links-container{display:contents}.nav-links{display:flex;gap:2rem;list-style:none}.nav-links a{color:var(--gray-dark);text-decoration:none;font-weight:600;transition:all .3s ease;position:relative;padding:5px 10px}nav.scrolled .nav-links a{color:var(--gray-dark)}.nav-links a::before{content:"";position:absolute;bottom:-5px;left:50%;transform:translateX(-50%) scaleX(0);width:100%;height:2px;background:var(--primary-blue);transition:transform .3s ease}.menu-toggle{display:none;flex-direction:column;cursor:pointer;gap:4px;position:relative;width:30px;height:30px;justify-content:center;align-items:center;background:rgba(0,93,163,0.1);padding:.5rem;border-radius:8px;transition:all .3s ease}.menu-toggle span{width:24px;height:3px;background:var(--gray-dark);transition:all .3s ease;border-radius:3px;position:absolute}nav.scrolled .menu-toggle span{background:var(--gray-dark)}.menu-toggle span:nth-child(1){top:8px}.menu-toggle span:nth-child(2){top:50%;transform:translateY(-50%)}.menu-toggle span:nth-child(3){bottom:8px}#hero{position:relative;height:calc(100vh - 100px);display:flex;align-items:center;justify-content:flex-start;overflow:hidden;padding:0 2rem;margin:1.3rem;margin-top:90px;padding-top:80px;border-radius:30px;border:3px solid rgba(0,93,163,0.2)}.hero-background{position:absolute;top:0;left:0;width:100%;height:100%;background-image:url("assets/images/heroimg.png");background-size:cover;background-position:center center;background-repeat:no-repeat;opacity:.9;transition:transform .5s ease}#hero::before{content:"";position:absolute;inset:0;background:transparent;z-index:1;opacity:.9}#hero::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at center,transparent 0%,rgba(0,61,107,0.2) 100%);z-index:1;opacity:.9}.hero-content{z-index:2;text-align:left;opacity:0;transform:translateY(50px);animation:heroEntry 1.2s ease-out .5s forwards;max-width:1200px;margin:0 auto;width:100%}h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:700;line-height:1.3;margin-bottom:1rem;background:linear-gradient(135deg,var(--white),var(--light-blue));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-shadow:2px 2px 4px rgba(0,0,0,0.1);animation:fadeInUp 1s ease-out}.hero-subline{font-size:clamp(1rem,2.5vw,1.3rem);font-weight:400;color:var(--white);margin-bottom:2.5rem;max-width:600px;line-height:1.6;opacity:.95}.hero-buttons{display:flex;gap:1rem;align-items:center}.btn-primary{background:linear-gradient(135deg,var(--primary-blue),var(--secondary-blue));color:var(--white);padding:10px 25px;border:none;border-radius:50px;font-size:.95rem;font-weight:600;cursor:pointer;transition:all .3s ease;display:inline-block;text-decoration:none;position:relative;overflow:hidden;min-height:44px}.btn-secondary{background:transparent;color:var(--white);padding:10px 25px;border:2px solid var(--white);border-radius:50px;font-size:.95rem;font-weight:600;cursor:pointer;transition:all .3s ease;text-decoration:none;display:inline-block;position:relative;overflow:hidden;min-height:44px}@keyframes heroEntry{to{opacity:1;transform:translateY(0)}}@keyframes fadeInUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}@media (max-width:768px){.nav-logo{color:var(--white);text-shadow:0 2px 8px rgba(0,0,0,0.3)}nav.scrolled .nav-logo{color:var(--primary-blue);text-shadow:none}.nav-links-container{display:none;position:fixed;top:0;right:0;width:320px;max-width:85vw;height:100vh;background:linear-gradient(135deg,rgba(255,255,255,0.98),rgba(230,242,255,0.95));backdrop-filter:blur(20px);z-index:9999;transform:translateX(100%);transition:transform .4s cubic-bezier(0.4,0,0.2,1);box-shadow:-5px 0 30px rgba(0,0,0,0.15)}.nav-links-container.active{display:block;transform:translateX(0)}.nav-links{flex-direction:column;gap:.5rem;padding:5rem 2rem 2rem}.menu-toggle{display:flex}#hero{height:auto;min-height:100vh;padding:120px 1.5rem 3rem;margin:0;border-radius:0;border:none;justify-content:center;align-items:center}.hero-background{background:linear-gradient(135deg,rgba(0,93,163,0.95) 0%,rgba(0,116,199,0.9) 50%,rgba(0,61,107,0.95) 100%);opacity:1}.hero-content{text-align:center}h1{font-size:clamp(2rem,8vw,2.8rem)}.hero-buttons{flex-direction:column;width:100%;max-width:400px;margin:0 auto}.btn-primary,.btn-secondary{width:100%;min-height:52px;padding:14px 32px;font-size:1.05rem}}</style>
+
+    <!-- Load full stylesheet asynchronously -->
+    <link rel="preload" href="assets/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="assets/css/styles.css" /></noscript>
+
+    <!-- Defer non-critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" /></noscript>
+
+    <link rel="icon" type="image/png" href="assets/images/logo.png" />
+    <meta name="description" content="Experts en travaux en hauteur pour le BTP, l'industrie, l'énergie et l'environnement. Accès sur cordes, inspection, maintenance." />
+    <meta name="keywords" content="travail en hauteur, BTP, industrie, énergie, environnement, accès sur cordes, inspection, maintenance, sécurité, expertise,cordes, travaux en hauteur" />
+    <meta name="author" content="Votre Entreprise" />
+    <meta property="og:title" content="Spécialiste des Travaux en Hauteur - Services Professionnels" />
+    <meta property="og:description" content="Experts en travaux en hauteur pour le BTP, l'industrie, l'énergie et l'environnement. Accès sur cordes, inspection, maintenance." />
+    <meta property="og:image" content="https://www.votreentreprise.com/og-image.jpg" />
+    <meta property="og:url" content="https://www.votreentreprise.com" />
+</head>
+<body>
+    <!-- Loader -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-content">
+                        <div class="loader-logo">
+                <img src="assets/images/logo.png" alt="Logo" width="120" height="120" />
+            </div>
+            <div class="loader-bar"><div class="loader-progress"></div></div>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="custom-cursor" id="customCursor"></div>
+
+    <!-- Nav -->
+    <nav id="navbar">
+                <div class="nav-container">
+            <div class="nav-logo">TravailEnHauteur</div>
+            <div class="nav-links-container">
+                <div class="menu-close" id="menuClose"></div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#hero">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#why-us">Pourquoi nous</a></li>
+                    <li><a href="#gallery">Galerie</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-toggle" id="menuToggle"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1>Spécialiste des Travaux<br>en Hauteur</h1>
+            <p class="hero-subline">Votre partenaire de confiance pour tous vos projets en altitude. Expertise, sécurité et innovation.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn-primary">Découvrir plus</a>
+                <a href="#contact" class="btn-secondary">Contactez-nous</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+  <section id="services">
+    <div class="section-bg"></div>
+    <div class="container">
+        <h2>Nos Services</h2>
+        <div class="parallax-element parallax-square" style="top:10%;right:5%;"></div>
+        <div class="parallax-element parallax-circle" style="bottom:10%;left:5%;"></div>
+
+        <div class="services-grid">
+            <!-- Bâtiment et travaux publics -->
+            <div class="service-card">
+                <div class="service-icon">🏗️</div>
+                <h3>Bâtiment et travaux publics</h3>
+                <ul>
+                    <li>Nettoyage et entretien de façades, vitres, structures métalliques</li>
+                    <li>Peinture, ravalement, rejointoiement</li>
+                    <li>Réparations sur béton, maçonnerie, charpente, couverture</li>
+                    <li>Pose ou dépose d'éléments : enseignes, câbles, filets, gaines, conduites</li>
+                </ul>
+            </div>
+
+            <!-- Industrie et maintenance -->
+            <div class="service-card">
+                <div class="service-icon">🏭</div>
+                <h3>Industrie et maintenance</h3>
+                <ul>
+                    <li>Inspection et maintenance de structures et installation d'équipements industrielles, silos, cheminées</li>
+                    <li>Travaux de soudure, dépose de corrosion, sablage, traitement de surfaces</li>
+                    <li>Pose d'équipements électriques ou de ventilation</li>
+                </ul>
+            </div>
+
+            <!-- Énergie et télécommunications -->
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>Énergie et télécommunications</h3>
+                <ul>
+                    <li>Intervention sur éoliennes, pylônes, lignes à haute tension</li>
+                    <li>Installation et maintenance d'antennes, câbles, panneaux solaires</li>
+                </ul>
+            </div>
+
+            <!-- Environnement et montagne -->
+            <div class="service-card">
+                <div class="service-icon">⛰️</div>
+                <h3>Environnement et montagne</h3>
+                <ul>
+                    <li>Purge et sécurisation de falaises, pare-blocs</li>
+                    <li>Entretien d'ouvrages hydrauliques</li>
+                    <li>Déblaiement, élagage, nettoyage de zones naturelles</li>
+                </ul>
+            </div>
+
+            <!-- Événement et loisirs -->
+            <div class="service-card">
+                <div class="service-icon">🎪</div>
+                <h3>Événement et loisirs</h3>
+                <ul>
+                    <li>Installation et démontage de structures scéniques, podiums et éclairages</li>
+                    <li>Mise en place d'accroches, bannières et éléments suspendus</li>
+                    <li>Assistance technique pour parcs de loisirs, stades et événements culturels</li>
+                    <li>Inspection et maintenance d'installations temporaires en hauteur</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- Pourquoi nous -->
+    <section id="why-us">
+        <div class="container">
+            <h2>Pourquoi nous choisir ?</h2>
+            <div class="why-us-grid">
+                <div class="why-us-item">
+                    <div class="why-us-icon">🛡️</div>
+                    <h3>Sécurité</h3>
+                    <p>Normes de sécurité strictes et équipements certifiés pour garantir la protection de nos équipes.</p>
+                </div>
+                <div class="why-us-item">
+                    <div class="why-us-icon">🚀</div>
+                    <h3>Efficacité</h3>
+                    <p>Interventions rapides et méthodiques pour minimiser les perturbations et maximiser les résultats.</p>
+                </div>
+                <div class="why-us-item">
+                    <div class="why-us-icon">🎯</div>
+                    <h3>Expertise</h3>
+                    <p>Équipe hautement qualifiée avec des années d’expérience dans le travail en hauteur.</p>
+                </div>
+                <div class="why-us-item">
+                    <div class="why-us-icon">💡</div>
+                    <h3>Innovation</h3>
+                    <p>Technologies de pointe et méthodes adaptées aux environnements complexes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie -->
+    <section id="gallery">
+        <div class="section-bg"></div>
+        <div class="container">
+            <h2>Nos Réalisations</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/images/pic1.jpg" alt="Nettoyage de façade" width="350" height="280" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <h3>Nettoyage de façade vitrée</h3>
+                        <p>Immeuble de grande hauteur</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="Inspection pylône" width="350" height="280" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <h3>Inspection de pylône</h3>
+                        <p>Contrôle visuel et serrage</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="Maintenance éolienne" width="350" height="280" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <h3>Maintenance éolienne</h3>
+                        <p>Parc éolien — 120 m</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="Travaux sur pont" width="350" height="280" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <h3>Travaux sur ouvrage d'art</h3>
+                        <p>Inspection et réparation</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="Entretien hydraulique" width="350" height="280" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <h3>Entretien d'ouvrage hydraulique</h3>
+                        <p>Débroussaillage et nettoyage</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..." alt="Purge de falaise" width="350" height="280" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <h3>Purge et sécurisation de falaise</h3>
+                        <p>Pose de filets pare-blocs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Prenons de la hauteur ensemble</h3>
+                    <p style="margin-bottom:2rem;color:var(--gray-medium)">Confiez-nous vos projets les plus exigeants. Interventions sur cordes, nacelles, et moyens adaptés.</p>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <img src="assets/images/mail.svg" alt="Icône email" width="24" height="24" loading="lazy" />
+                        </div>
+                        <div><strong>Email</strong><br />Achref@TravailEnHauteur.tn</div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <img src="assets/images/phone.svg" alt="Icône téléphone" width="24" height="24" loading="lazy" />
+                        </div>
+                        <div><strong>Téléphone</strong><br />+216 22 480 923</div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <img src="assets/images/navigation.svg" alt="Icône adresse" width="24" height="24" loading="lazy" />
+                        </div>
+                        <div><strong>Adresse</strong><br />Avenue Habib Borguiba<br />2080 Ariana, Tunisie</div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nom complet</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Adresse email</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" name="phone" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Votre message</label>
+                        <textarea id="message" name="message" placeholder="Décrivez votre projet..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Envoyer un message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo"><img src="assets/images/logo.png" alt="Logo" width="90" height="90" loading="lazy" /></div>
+                    <p style="font-weight:600;margin-bottom:1rem">Spécialiste des Travaux en Hauteur</p>
+                    <p style="opacity:.8;font-size:.9rem">Votre partenaire de confiance pour tous vos projets en altitude</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3 style="margin-bottom:1rem;font-size:1.1rem;font-weight:600;">Services</h3>
+                    <p>Bâtiment et travaux publics</p>
+                    <p>Industrie et maintenance</p>
+                    <p>Énergie et télécommunications</p>
+                    <p>Environnement et montagne</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3 style="margin-bottom:1rem;font-size:1.1rem;font-weight:600;">Contact</h3>
+                    <div class="footer-info">
+                        <p>
+                            <img src="assets/images/mail.svg" alt="Icône email" width="18" height="18" loading="lazy" />
+                            Achref@TravailEnHauteur.tn
+                        </p>
+                        <p>
+                            <img src="assets/images/phone.svg" alt="Icône téléphone" width="18" height="18" loading="lazy" />
+                            +216 22 480 923
+                        </p>
+                        <p>
+                            <img src="assets/images/navigation.svg" alt="Icône adresse" width="18" height="18" loading="lazy" />
+                            Ariana, Tunisie
+                        </p>
+                    </div>
+                </div>
+<div class="footer-section">
+    <h3 style="margin-bottom:1rem;font-size:1.1rem;font-weight:600;">Suivez-nous</h3>
+    <div class="social-links">
+        <a href="#" aria-label="Facebook">
+            <img src="assets/images/facebook.svg" alt="Facebook" width="24" height="24">
+        </a>
+        <a href="#" aria-label="Twitter">
+            <img src="assets/images/X.svg" alt="Twitter" width="24" height="24">
+        </a>
+        <a href="#" aria-label="LinkedIn">
+            <img src="assets/images/linkedin.svg" alt="LinkedIn" width="24" height="24">
+        </a>
+        <a href="#" aria-label="Instagram">
+            <img src="assets/images/instagram.svg" alt="Instagram" width="24" height="24">
+        </a>
+    </div>
+</div>
+
+            </div>
+            <p style="margin-top:3rem;padding-top:2rem;border-top:1px solid rgba(255,255,255,.1);text-align:center;opacity:.7">© 2025 Spécialiste des Travaux en Hauteur. Tous droits réservés. | Mentions légales | Politique de confidentialité</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js" defer></script>
+    </body>
+</html>
