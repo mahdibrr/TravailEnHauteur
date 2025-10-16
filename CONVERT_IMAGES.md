@@ -1,10 +1,10 @@
 # 🖼️ Image Conversion Guide - WebP Format
 
-To achieve **100% Lighthouse Performance Score**, you need to convert your images to WebP format.
+To achieve **100% Lighthouse Performance Score**, you need to convert your images1 to WebP format.
 
 ## 📋 Required Conversions
 
-Convert these images to WebP format:
+Convert these images1 to WebP format:
 
 1. **heroimg.png** (1008 KiB) → **heroimg.webp** (~100-200 KiB) ⚠️ **CRITICAL FOR LCP**
 2. **pic1.jpg** (445 KiB) → **pic1.webp** (~100-150 KiB)
@@ -18,10 +18,10 @@ Expected savings: **~1,116 KiB** (85% reduction!)
 
 ### Method 1: Online Tools (Easiest)
 1. Go to https://squoosh.app/ or https://cloudconvert.com/png-to-webp
-2. Upload your images
+2. Upload your images1
 3. Set quality to **85** for photos, **90** for graphics
 4. Download the WebP versions
-5. Place them in `assets/images/` folder
+5. Place them in `assets/images1/` folder
 
 ### Method 2: Command Line (Best Quality)
 
@@ -30,7 +30,7 @@ Expected savings: **~1,116 KiB** (85% reduction!)
 # Download cwebp from: https://developers.google.com/speed/webp/download
 
 # Convert hero image (most important!)
-cwebp -q 85 assets/images/heroimg.png -o assets/images/heroimg.webp
+cwebp -q 85 assets/images11/heroimg.png -o assets/images1/heroimg.webp
 
 # Convert gallery image
 cwebp -q 85 assets/images/pic1.jpg -o assets/images/pic1.webp
